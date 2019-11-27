@@ -1,0 +1,11 @@
+# ninja log v5
+0	158	0	src/recorderservice.o	9fbdd101e1b67e57
+158	365	0	recorderservice	c87aeb39443f89
+1	3260	0	src/recorderservice.o	9fbdd101e1b67e57
+3260	8958	0	recorderservice	c87aeb39443f89
+1	3452	0	src/recorderservice.o	9fbdd101e1b67e57
+3452	7508	0	recorderservice	c87aeb39443f89
+0	148	0	src/recorderservice.o	9fbdd101e1b67e57
+149	380	0	recorderservice	c87aeb39443f89
+1	310	0	src/recorderservice.o	5ef096668c8f6885
+310	1004	0	recorderservice	c347632cf16def58

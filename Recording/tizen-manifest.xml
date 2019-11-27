@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.recorderservice" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="org.example.recorderservice" auto-restart="true" exec="recorderservice" multiple="false" nodisplay="true" on-boot="true" taskmanage="false" type="capp">
+        <label>recorderservice</label>
+        <icon>recorderservice.png</icon>
+        <background-category value="sensor"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+</manifest>

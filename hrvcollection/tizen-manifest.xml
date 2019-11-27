@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.hrvcollection" version="1.0.0">
+    <author email="fasarh@utu.fi">Fatemeh Sarhaddi</author>
+    <profile name="wearable"/>
+    <service-application appid="org.example.hrvcollection" exec="hrvcollection" multiple="false" nodisplay="true" on-boot="true" taskmanage="false" type="capp">
+        <label>hrvcollection</label>
+        <icon>hrvcollection.png</icon>
+        <background-category value="sensor"/>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/display</privilege>
+        <privilege>http://tizen.org/privilege/power</privilege>
+    </privileges>
+</manifest>

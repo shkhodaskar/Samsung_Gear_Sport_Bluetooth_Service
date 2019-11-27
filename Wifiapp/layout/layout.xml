@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document>
+    <mscreen>
+        <configuration device="CIRCLE_360x360" id="config1" name="common" orientation="portrait" type="common"/>
+    </mscreen>
+    <views startup="mainView">
+        <view id="mainView" indicator="false" type="view" page_location_x="0" page_location_y="0"><grid align_h="fill" vsize_w="1000" align_v="fill" visible="true" weight_v="1" id="mainGrid" weight_h="1" vsize_h="1000"><button align_v="fill" visible="true" weight_v="1" weight_h="1" align_h="fill" disable="false" style="bottom" id="sendButton" text="SEND" pack_x="100" pack_y="-3" pack_w="800" pack_h="361"><event function_name="mainView_sendButton_onclicked" signal="clicked"/></button><button align_v="fill" visible="true" weight_v="1" pack_h="361" weight_h="1" align_h="fill" pack_w="800" disable="false" pack_x="98" pack_y="710" style="bottom" id="exitButton" text="EXIT"><event function_name="mainView_exitButton_onclicked" signal="clicked"/></button><box align_v="fill" visible="true" weight_v="1" padding_h="0" weight_h="1" homogeneous="false" align_h="fill" padding_v="0" id="msgBox" direction="vertical" pack_x="0" pack_y="362" pack_w="1000" pack_h="338"><label align_v="0.5" visible="true" weight_v="1" line_wrap="none" weight_h="1" ellipsis="false" align_h="0.5" wrap_width="0" id="msgLabel" text="Press Send Button"></label></box></grid><event function_name="mainView_onuib_view_create" signal="uib,view,create"/></view>
+    </views>
+</document>

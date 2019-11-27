@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.2" package="org.example.wifiappp" version="1.0.0">
+    <author email="msadeh@utu.fi">Mohsen Saei Dehghan</author>
+    <profile name="wearable"/>
+    <ui-application appid="org.example.wifiappp" exec="wifiappp" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>wifiapp</label>
+        <icon>wifi.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/network.set</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/network.profile</privilege>
+    </privileges>
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.bluetoothapp" version="1.0.0">
+    <author>Sahil</author>
+    <profile name="wearable"/>
+    <ui-application appid="org.example.bluetoothapp" exec="bluetoothapp" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>bluetoothapp</label>
+        <icon>wifi.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/network.set</privilege>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/network.profile</privilege>
+    </privileges>
+</manifest>
